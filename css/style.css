@@ -51,10 +51,40 @@ body{
     align-items: center;
 }
 
-.row_input{
+.row_form input{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    border-radius: 30px;
+    border-radius: 5px;
+    border: 1px solid #9c9c9c;
+    height: 30px;
+    padding: 8px;
+    width: 70%;
 
+}
+
+.button_form{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5 px;
+    border-radius: 15px;
+    border: 1px solid #9c9c9c;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.button_form:hover{
+    box-shadow: 0px 0px 10px 1px #000;
+    transition: all ease-in-out .5s;
+
+}
+
+.form{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
 }
